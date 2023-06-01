@@ -4,10 +4,10 @@ import matplotlib.pyplot as plt
 ax = plt.axes(projection = "3d")
 
 #this random test file
-file1 = open(r"C:\Users\Bereket\Desktop\Summer research\xyz.txt", "r")
+file1 = open(r"C:\Users\Bereket\Desktop\Summer research\plot\xyz.txt", "r")
 
 #this is axis coordinates from blender sample model
-file2_blender = open(r"C:\Users\Bereket\Desktop\Summer research\plot2fromBlender.txt", "r")
+file2_blender = open(r"C:\Users\Bereket\Desktop\Summer research\plot\plot2fromBlender.txt", "r")
 
 
 final_dataset= []
@@ -60,10 +60,10 @@ print(z_data)
 # y_data= np.arange(0,10,0.1)
 
 
-X,Y,Z = np.meshgrid(x_data, y_data,z_data)
+# X,Y,Z = np.meshgrid(/)
 
-Z = np.meshgrid(z_data)
+# Z = np.meshgrid(z_data)
 
-ax.plot_surface(X, Y,Z)
+surf = ax.plot_trisurf(x_data, y_data,z_data)
 plt.show()
 
