@@ -7,7 +7,7 @@ ax = plt.axes(projection = "3d")
 file1 = open(r"C:\Users\Bereket\Desktop\Summer research\plot\xyz.txt", "r")
 
 #this is axis coordinates from blender sample model
-file2_blender = open(r"C:\Users\Bereket\Desktop\Summer research\plot\plot2fromBlender.txt", "r")
+file2_blender = open(r"C:\Users\Bereket\Desktop\Summer research\plot\blendercrack2.txt", "r")
 
 
 final_dataset= []
@@ -21,7 +21,7 @@ line = file2_blender.readline()
 
 #read the 34 lines with xyz
 i = 0
-while i <= 34:
+while i <= 69:
     row = []
     temp_list = line.split()
     
