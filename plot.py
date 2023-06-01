@@ -9,19 +9,18 @@ file1 = open(r"C:\Users\Bereket\Desktop\Summer research\plot\xyz.txt", "r")
 #this is axis coordinates from blender sample model
 file2_blender = open(r"C:\Users\Bereket\Desktop\Summer research\plot\blendercrack2.txt", "r")
 
-
 final_dataset= []
 
-#skipping the first 4 lines
+#skipping the first 5 lines
 line = file2_blender.readline()
 line = file2_blender.readline()
 line = file2_blender.readline()
 line = file2_blender.readline()
 line = file2_blender.readline()
 
-#read the 34 lines with xyz
+#read the 16 lines with xyz
 i = 0
-while i <= 69:
+while i <= 14:
     row = []
     temp_list = line.split()
     
