@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 ax = plt.axes(projection = "3d")
 
-#this random test file
+#this is random test file
 file1 = open(r"C:\Users\Bereket\Desktop\Summer research\plot\xyz.txt", "r")
 
 #this is axis coordinates from blender sample model
@@ -65,4 +65,5 @@ print(z_data)
 
 surf = ax.plot_trisurf(x_data, y_data,z_data)
 plt.show()
+
 
