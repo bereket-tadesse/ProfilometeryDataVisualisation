@@ -65,5 +65,3 @@ print(z_data)
 
 surf = ax.plot_trisurf(x_data, y_data,z_data)
 plt.show()
-
-
