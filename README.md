@@ -6,4 +6,5 @@ I have been taking samples of the layers under the instrument and gnerating a pl
 
 The package is still under developement in collaboration with other researchers as well.
 
-Next plan for this package is to utilize numpy and panda to analyse the vertex alignments as matrix and
+Next plan for this package is to utilize numpy and panda to analyse the vertex alignments as matrix and arrays.
+
