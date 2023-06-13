@@ -11,7 +11,7 @@ file2_blender = open(r"C:\Users\Bereket\Desktop\Summer research\plot\blendercrac
 
 final_dataset= []
 
-#skipping the first 5 lines
+#skipping the first 5 lines.
 line = file2_blender.readline()
 line = file2_blender.readline()
 line = file2_blender.readline()
