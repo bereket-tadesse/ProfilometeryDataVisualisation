@@ -3,5 +3,5 @@ This project is about analysing how materials made of copper, kapton and adhesiv
 After taking samples of the layers under the instrument, a surface is generated from the roughness data and the text file is changed into a 3D model using the matlibplot package.
 
 
-- add more functions using numpy and panda.
+- Add more functions using numpy and panda.
 
